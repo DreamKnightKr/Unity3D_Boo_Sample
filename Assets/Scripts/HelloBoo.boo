@@ -20,7 +20,7 @@ class HelloBoo (MonoBehaviour):
 		return "HelloBoo"
 		
 	def SendMessageToCShapComponent():
-		// -> print "SendMessageToCShapComponent"	// Don't Show on consol
+		//print "SendMessageToCShapComponent"	// Don't Show on consol
 		print ("SendMessageToCShapComponent")
 		obj = GameObject.Find("GameObjectWithC#")
 		obj.GetComponent("CShapDemo").SendMessage("CallFromHellBoo", "Call OK !!!")
