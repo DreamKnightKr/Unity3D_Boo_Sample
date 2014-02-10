@@ -189,6 +189,7 @@ GameObject:
   - 4: {fileID: 1261935542}
   - 114: {fileID: 1261935541}
   - 114: {fileID: 1261935543}
+  - 114: {fileID: 1261935544}
   m_Layer: 0
   m_Name: GitTest
   m_TagString: Untagged
@@ -227,6 +228,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 641cccb312c18934a96d15b0632badab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1261935544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1261935540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8736faa733d74461a5a59d903f78a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1755449146
